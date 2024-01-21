@@ -14,7 +14,7 @@ const Products = () => {
   
 
   useEffect(() => {
-    fetchProducts('iphone')
+    fetchProducts('produtos')
     .then((response) => {
       setProducts(response)
       setLoading(false)
